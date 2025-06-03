@@ -7,6 +7,7 @@ app.use(cors());  // Allows cross-origin requests (important for APIs)
 
 const trains = [
   {
+    "station_name": "New Delhi",
     "train_number": "54631",
     "train_name": "Patna-Ahmedabad Rajdhani",
     "source": "Patna",
@@ -23,6 +24,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Mumbai Central",
     "train_number": "26329",
     "train_name": "Hyderabad-Bhopal Duronto",
     "source": "Hyderabad",
@@ -39,6 +41,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Howrah Junction",
     "train_number": "43297",
     "train_name": "Coimbatore-Visakhapatnam Superfast",
     "source": "Coimbatore",
@@ -55,6 +58,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Chennai Central",
     "train_number": "17954",
     "train_name": "Mumbai-Delhi Express",
     "source": "Mumbai",
@@ -71,6 +75,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Bengaluru City Junction",
     "train_number": "49107",
     "train_name": "Jaipur-Lucknow Superfast",
     "source": "Jaipur",
@@ -87,6 +92,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Hyderabad Deccan",
     "train_number": "35826",
     "train_name": "Kolkata-Chennai Duronto",
     "source": "Kolkata",
@@ -103,6 +109,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Ahmedabad Junction",
     "train_number": "29583",
     "train_name": "Bangalore-Hyderabad Express",
     "source": "Bangalore",
@@ -119,6 +126,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Pune Junction",
     "train_number": "67890",
     "train_name": "Pune-Ahmedabad Vande Bharat",
     "source": "Pune",
@@ -135,6 +143,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Patna Junction",
     "train_number": "54876",
     "train_name": "Guwahati-Patna Rajdhani",
     "source": "Guwahati",
@@ -151,6 +160,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Jaipur Junction",
     "train_number": "12345",
     "train_name": "Nagpur-Coimbatore Express",
     "source": "Nagpur",
@@ -167,6 +177,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Bhopal Junction",
     "train_number": "36129",
     "train_name": "Lucknow-Chandigarh Superfast",
     "source": "Lucknow",
@@ -183,6 +194,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Lucknow NR",
     "train_number": "46728",
     "train_name": "Visakhapatnam-Delhi Rajdhani",
     "source": "Visakhapatnam",
@@ -199,6 +211,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Kanpur Central",
     "train_number": "28476",
     "train_name": "Indore-Bhopal Express",
     "source": "Indore",
@@ -215,6 +228,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Varanasi Junction",
     "train_number": "57891",
     "train_name": "Chandigarh-Mumbai Express",
     "source": "Chandigarh",
@@ -231,6 +245,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Nagpur Junction",
     "train_number": "39615",
     "train_name": "Delhi-Kolkata Duronto",
     "source": "Delhi",
@@ -247,6 +262,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Surat",
     "train_number": "48203",
     "train_name": "Ahmedabad-Pune Superfast",
     "source": "Ahmedabad",
@@ -263,6 +279,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Visakhapatnam Junction",
     "train_number": "36958",
     "train_name": "Bhopal-Guwahati Express",
     "source": "Bhopal",
@@ -279,6 +296,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Guwahati",
     "train_number": "52137",
     "train_name": "Chennai-Nagpur Superfast",
     "source": "Chennai",
@@ -295,6 +313,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Secunderabad Junction",
     "train_number": "48216",
     "train_name": "Jaipur-Patna Vande Bharat",
     "source": "Jaipur",
@@ -311,6 +330,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Coimbatore Junction",
     "train_number": "39520",
     "train_name": "Mumbai-Coimbatore Express",
     "source": "Mumbai",
@@ -327,6 +347,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Ernakulam Junction",
     "train_number": "25479",
     "train_name": "Patna-Hyderabad Rajdhani",
     "source": "Patna",
@@ -343,6 +364,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Madurai Junction",
     "train_number": "49285",
     "train_name": "Nagpur-Delhi Superfast",
     "source": "Nagpur",
@@ -359,6 +381,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Tiruchchirappalli Junction",
     "train_number": "37921",
     "train_name": "Guwahati-Bangalore Express",
     "source": "Guwahati",
@@ -375,6 +398,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Thiruvananthapuram Central",
     "train_number": "41623",
     "train_name": "Coimbatore-Lucknow Duronto",
     "source": "Coimbatore",
@@ -391,6 +415,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Mangalore Central",
     "train_number": "58812",
     "train_name": "Pune-Mumbai Superfast",
     "source": "Pune",
@@ -407,6 +432,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Jodhpur Junction",
     "train_number": "37643",
     "train_name": "Bangalore-Delhi Vande Bharat",
     "source": "Bangalore",
@@ -423,6 +449,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Gwalior Junction",
     "train_number": "49276",
     "train_name": "Jaipur-Ahmedabad Express",
     "source": "Jaipur",
@@ -439,6 +466,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Ranchi",
     "train_number": "36498",
     "train_name": "Lucknow-Patna Superfast",
     "source": "Lucknow",
@@ -455,6 +483,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Raipur Junction",
     "train_number": "48329",
     "train_name": "Chennai-Delhi Express",
     "source": "Chennai",
@@ -471,6 +500,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Bhubaneswar",
     "train_number": "56984",
     "train_name": "Nagpur-Bhopal Rajdhani",
     "source": "Nagpur",
@@ -487,6 +517,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Jammu Tawi",
     "train_number": "52378",
     "train_name": "Indore-Mumbai Express",
     "source": "Indore",
@@ -503,6 +534,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Amritsar Junction",
     "train_number": "47812",
     "train_name": "Ahmedabad-Patna Superfast",
     "source": "Ahmedabad",
@@ -519,6 +551,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Udaipur City",
     "train_number": "34567",
     "train_name": "Bhopal-Kolkata Rajdhani",
     "source": "Bhopal",
@@ -535,6 +568,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Dehradun",
     "train_number": "42190",
     "train_name": "Visakhapatnam-Delhi Superfast",
     "source": "Visakhapatnam",
@@ -551,6 +585,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Siliguri Junction",
     "train_number": "38945",
     "train_name": "Chandigarh-Bangalore Duronto",
     "source": "Chandigarh",
@@ -567,6 +602,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Agra Cantt",
     "train_number": "57432",
     "train_name": "Lucknow-Coimbatore Express",
     "source": "Lucknow",
@@ -583,6 +619,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Gorakhpur Junction",
     "train_number": "46289",
     "train_name": "Mumbai-Guwahati Express",
     "source": "Mumbai",
@@ -599,6 +636,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Dhanbad Junction",
     "train_number": "53984",
     "train_name": "Delhi-Coimbatore Superfast",
     "source": "Delhi",
@@ -615,6 +653,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Bilaspur Junction",
     "train_number": "48612",
     "train_name": "Hyderabad-Ahmedabad Rajdhani",
     "source": "Hyderabad",
@@ -631,6 +670,7 @@ const trains = [
     }
   },
   {
+    "station_name": "Nellore",
     "train_number": "39578",
     "train_name": "Chennai-Patna Express",
     "source": "Chennai",
